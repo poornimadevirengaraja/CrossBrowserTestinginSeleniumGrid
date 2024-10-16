@@ -14,7 +14,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
-
+// base class to select the browser and execution type local web driver (or) remote driver in selenium grid
 class baseclass {
 	public WebDriver initializebrowser(String browsername, String drivertype) throws MalformedURLException {
 		WebDriver driver = null;
